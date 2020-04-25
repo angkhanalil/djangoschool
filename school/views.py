@@ -7,5 +7,8 @@ def HomePage(request):
     #return HttpResponse('<h1>HomePage</h1>')
 
 
-def base(request):
-    return render(request,'school/base.html')
+def AboutPage(request):
+    return render(request,'school/about.html')
+
+def ContactUs(request):
+    return render(request,'school/contact.html')
