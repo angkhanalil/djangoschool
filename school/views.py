@@ -5,3 +5,7 @@ from django.http import HttpResponse
 def HomePage(request):
     return render(request,'school/home.html')
     #return HttpResponse('<h1>HomePage</h1>')
+
+
+def base(request):
+    return render(request,'school/base.html')
